@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(93, 243, 0);
+}
+
+h1{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40 px;
+    background-color: rgb(13, 141, 17);
+}
+
+#label{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+#confidence{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+canvas{
+    border: 5 px solid rgb(251, 255, 44);
+    border-radius: 20%;
+
+    animation-name: fondo;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    margin-top: 120px;
+}
+
+@keyframes fondo{
+    from { box-shadow: 2px, 2px, 40px purple;}
+    to { box-shadow: 2px, 2px, 40px blue;}
+}
+
